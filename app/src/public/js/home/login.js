@@ -5,12 +5,11 @@ const id = document.querySelector("#id"),
   loginBtn = document.querySelector("button");
 
 loginBtn.addEventListener("click", login);
-  
+
 function login() {
-  const req = {
+  const req ={
     id: id.value,
-    psword: psword.value,
+    psword: psword.value, 
   };
-
+  console.log(req);
 };
-
